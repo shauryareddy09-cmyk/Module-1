@@ -1,0 +1,12 @@
+<html>
+    <body>
+        <h4>Convert a Javascript Object  unto a JSON string, and send it to the sever</h4>
+        <p id="result"></p>
+        <script>
+            var myObj = { name: "Riya", age: 12, grade: 7};
+            var myJSON = JSON.stringify(myObj);
+            var newObj = JSON.parse(myJSON);
+            document.getElementById("result").innerHTML = newObj.name;
+        </script>
+    </body>
+</html>
