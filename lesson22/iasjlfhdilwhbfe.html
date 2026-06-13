@@ -1,0 +1,22 @@
+<html>
+    <head></head>
+    <body>
+        
+        <h2>This Is The Heading</h2>
+        <p>Tis is the paragraph</p>
+        <p id="result"></p>
+        <script>
+        function maximum(){
+            var i;
+            var max=0;
+            for (i=0; i<arguments.length;i++){
+                if(arguments[i]>max){
+                    max=arguments[i];
+                }
+            }
+            return max;
+        }
+        document.getElementById("result").innerHTML=maximum(6,234)
+    </script>
+    </body>
+</html>
