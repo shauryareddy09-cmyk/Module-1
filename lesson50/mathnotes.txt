@@ -1,0 +1,4 @@
+a+b = b+a 
+To add a fraction or a rational number the denominator needs to be the same 
+Any number multiplied by 0 will alway be 0
+Any number multiplied by 1 will be the number itself
